@@ -1,0 +1,34 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+struct student
+{
+    int no,s1,s2,s3;
+    char name[10];
+    
+}s;
+
+int main()
+{
+    int tot,avg;
+    printf("enter student no,name,s1,s2,s3");
+    scanf("%d%s%d%d%d",&s.no,s.name,&s.s1,&s.s2,&s.s3);
+    tot=s.s1+s.s2+s.s3;
+    avg=tot/3;
+    
+    printf("\n sno=%d  sname=%s s1=%d  s2=%d  s3=%d total=%d avg=%d\n",s.no,s.name,s.s1,s.s2,s.s3,tot,avg);
+    
+    if(s.s1>=40 && s.s2>=40 && s.s3>=40)
+    printf("result is pass");
+    else
+    printf("result is fail");
+    return 0;
+}
+
+
