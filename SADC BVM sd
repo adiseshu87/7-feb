@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>nested </title>
+</head>
+<body>
+<H1 align=center>Bio data</H1>
+<table border=10 bgcolor="violet">
+<tr><td><h2>Personal details</h2> <hr>
+<tr><td>
+<ol type="1">
+<li>Name:</li>
+<li>FName:</li>
+<li>DOB:</li>
+<li>Email:</li>
+</ol>
+<tr><td>computer skills</tr>
+<tr><td>
+<ol type="a">
+<li>language:</li>
+<li>operataing system:</li>
+</ol>
+</tr>
+<tr><td>Academic quelification </tr>
+<tr><td>
+<table border=5 bgcolor="orange"">
+<tr><th>sno<th>class<th>percentage<th>year</tr>
+<tr><td><td><td><td></tr>
+<tr><td><td><td><td></tr>
+</table>
+</body>
+</html>
